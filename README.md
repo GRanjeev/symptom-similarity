@@ -78,7 +78,7 @@ python generate_mental_health.py
 python load_mental_health.py
 ```
 
-After both finish you'll have `rare_diseases` (100 vectors) and `mental_health_profiles` (55 vectors) in your Qdrant cluster.
+After both finish you'll have `rare_diseases` (100 vectors) and `mental_health_profiles` (68 vectors) in your Qdrant cluster.
 
 ---
 
@@ -104,7 +104,7 @@ The embedding model (all-mpnet-base-v2) handles the rest. It was chosen over sma
 
 ## Mental health and crisis safety
 
-The mental health tab scans every input for crisis-related language before running any search. If something matches — words like "suicide," "want to die," "end my life" — the search stops entirely and the app shows crisis resources. Nothing else. No similarity scores, no condition names.
+The mental health tab scans every input for crisis-related language before running any search. If something matches words like "suicide," "want to die," "end my life", the search stops entirely and the app shows crisis resources. Nothing else. No similarity scores, no condition names.
 
 Crisis helplines shown in the app:
 
@@ -136,7 +136,7 @@ load_mental_health.py     Embeds and uploads mental health data to Qdrant
 disease_data.csv          100 rare disease profiles
 mental_health_data.csv    55 mental health condition profiles
 requirements.txt          Dependencies
-.env                      Your API keys — don't commit this
+.env                      Your API keys
 ```
 
 ---
@@ -166,7 +166,7 @@ noises or sudden surprises, gets worse when I'm stressed or emotional,
 difficulty walking, my back feels constantly rigid
 ```
 
-Should come back with Stiff Person Syndrome at around 75%.
+Should come back with Stiff Person Syndrome
 
 ```
 butterfly rash across my cheeks, constant fatigue, joint pain, hair
@@ -184,7 +184,7 @@ know why. I can't get out of bed most days. I feel like I'm just a
 burden to everyone around me.
 ```
 
-Should match Major Depressive Disorder at around 80%.
+Should match Major Depressive Disorder
 
 ---
 
