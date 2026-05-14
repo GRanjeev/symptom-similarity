@@ -907,7 +907,7 @@ DISORDERS = [
 
 def create_csv():
     """
-    Write all 55 conditions to mental_health_data.csv.
+    Write all 68 conditions to mental_health_data.csv.
 
     WHY CSV FORMAT:
     • Readable — judges can inspect data in Excel or a text editor
