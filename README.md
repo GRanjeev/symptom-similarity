@@ -189,8 +189,9 @@ Should match Major Depressive Disorder at around 80%.
 ---
 
 ## Hackathon category
-
+```
 Community and Social Impact.
+```
 ---
 
 ## Disclaimer
