@@ -134,7 +134,7 @@ load_data.py              Embeds and uploads rare diseases to Qdrant
 generate_mental_health.py Creates mental_health_data.csv (hardcoded)
 load_mental_health.py     Embeds and uploads mental health data to Qdrant
 disease_data.csv          100 rare disease profiles
-mental_health_data.csv    55 mental health condition profiles
+mental_health_data.csv    68 mental health condition profiles
 requirements.txt          Dependencies
 .env                      Your API keys
 ```
