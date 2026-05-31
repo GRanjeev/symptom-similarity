@@ -1,7 +1,5 @@
 # SymptomSimilarity
 
-Built for the Qdrant Hackathon 2026.
-
 ---
 
 ## What this is
@@ -187,11 +185,6 @@ burden to everyone around me.
 Should match Major Depressive Disorder
 
 ---
-
-## Hackathon category
-
-Community and Social Impact.
-
 ---
 
 ## Disclaimer
