@@ -184,9 +184,6 @@ burden to everyone around me.
 
 Should match Major Depressive Disorder
 
----
----
-
 ## Disclaimer
 
 This is for educational purposes only. Not a medical diagnosis tool. If you're in a medical or mental health emergency, please contact a professional or use the crisis resources listed above.
